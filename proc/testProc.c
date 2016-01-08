@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <pthread.h>
-
-void* launch_thread();
+#include "testProc.h"
 
 int main(int argc, char** argv){
 

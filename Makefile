@@ -1,4 +1,7 @@
-all: proc
+all: proc udp
 
-proc: testProc.c
-	gcc -o proc.out testProc.c -lpthread
+proc: proc/testProc.c proc.testProc.h
+	gcc -o proc.out proc/testProc.c -lpthread
+
+udp: udp/testUDP.c udp/testUDP.h
+	gcc -o udp.out udp/testUDP.c -lpthread
