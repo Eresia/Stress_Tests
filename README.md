@@ -8,7 +8,7 @@ Créé autant de threads que voulu en bouclant sur la suite de Fibonacci.
 * Executable : proc.out
 * Argument : Nombre de threads
 
-Mémoire (Et Processeur)
+Mémoire (+ Processeur)
 --------
 Créé autant de fork que voulu en bouclant sur la suite de Fibonacci. (Test mémoire + processeur)
 * Make : make mem
